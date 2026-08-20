@@ -1,4 +1,4 @@
-# Midwest EpiView: Measles
+# Midwest EpiView VPD Template
 
 ## Table of Contents
 
@@ -15,9 +15,9 @@
 
 ## Project Description
 
-The original Midwest EpiView: Measles project is an interactive dashboard for visualizing measles vaccination coverage and historical measles case data across Minnesota. This repository contains the necessary code for adapting this dashboard to different states and different vaccine coverage. 
+The Midwest EpiView VPD Template is an interactive dashboard template for visualizing vaccine-preventable disease (VPD) vaccination coverage and historical case data. The original implementation focused on measles across Minnesota. This repository contains the necessary code for adapting this dashboard to different states, jurisdictions, and vaccine-preventable diseases.
 
-Midwest EpiView: Measles was developed by the [Midwest Analytics and Disease Modeling Center (MADMC)](https://www.sph.umn.edu/research/centers/midwest-analytics-and-disease-modeling/) at the University of Minnesota School of Public Health. It is built in **R** using the **Shiny** framework and integrates vaccination, geographic, and historical case data into a set of interactive maps and tables to support exploratory public health analysis and outreach.
+Midwest EpiView VPD Template was developed by the [Midwest Analytics and Disease Modeling Center (MADMC)](https://www.sph.umn.edu/research/centers/midwest-analytics-and-disease-modeling/) at the University of Minnesota School of Public Health. It is built in **R** using the **Shiny** framework and integrates vaccination, geographic, and historical case data into a set of interactive maps and tables to support exploratory public health analysis and outreach.
 
 Although the dashboard was originally built with Minnesota-specific datasets, the framework can be adapted by other states or jurisdictions using equivalent local data sources.
 
@@ -31,7 +31,7 @@ Key features include:
 - Interactive tables and filtering tools
 
 ## Intended Use Cases and Limitations
-This dashboard is intended as a data exploration and visualization tool for understanding patterns in measles vaccination coverage and historical measles case counts across Minnesota.
+This dashboard template is intended as a data exploration and visualization tool for understanding patterns in vaccine-preventable disease (VPD) vaccination coverage and historical case counts.
 
 Possible use cases include:
 - Public health planning and outreach
@@ -115,6 +115,8 @@ The dashboard expects the following input datasets and fields. When adapting the
    ```
 
 ## Adapting the Dashboard for Another State
+
+> **Note on disease-specific language:** The current app code — including tab labels, map popups, table headers, and in-code comments — uses measles-specific terminology (e.g., "Historical Measles Cases", `measles_cases`). When adapting this template for a different vaccine-preventable disease, these labels and variable references throughout `ui.R`, the `server_code/` modules, and `data_wrangling_for_app.R` will need to be updated to reflect the disease of interest.
 
 The framework can be adapted to another jurisdiction by following this general workflow:
 
