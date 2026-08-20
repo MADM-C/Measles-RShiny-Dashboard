@@ -1,11 +1,11 @@
 # ============================================================
-# USER INTERFACE (UI) – MIDWEST EPIVIEW: MEASLES DASHBOARD
+# USER INTERFACE (UI) – MIDWEST EPIVIEW VPD TEMPLATE
 # ============================================================
 #
 # Purpose
 # -------
 # This file defines the full user interface for the Midwest
-# EpiView: Measles dashboard. It structures the layout of the
+# EpiView VPD Template. It structures the layout of the
 # application, organizes navigation across tabs, and creates
 # reusable UI components used throughout the app.
 #
