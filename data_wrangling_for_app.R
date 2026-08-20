@@ -1,11 +1,11 @@
 # ============================================================
-# DATA PREPARATION SCRIPT – MEASLES / MMR DASHBOARD (TEMPLATE)
+# DATA PREPARATION SCRIPT – MIDWEST EPIVIEW VPD TEMPLATE
 # ============================================================
 #
 # Purpose
 # -------
 # This script prepares and cleans the datasets used by the
-# Midwest EpiView: Measles dashboard. It merges vaccination
+# Midwest EpiView VPD Template. It merges vaccination
 # records with geographic shapefiles, reconciles facility
 # identifiers, and produces the standardized objects the Shiny
 # app expects.

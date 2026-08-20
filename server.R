@@ -1,5 +1,5 @@
 # ============================================================
-# SERVER LOGIC – MIDWEST EPIVIEW: MEASLES DASHBOARD
+# SERVER LOGIC – MIDWEST EPIVIEW VPD TEMPLATE
 # ============================================================
 #
 # Purpose
